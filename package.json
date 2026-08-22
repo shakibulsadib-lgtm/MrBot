@@ -1,1 +1,16 @@
-
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "Minecraft 1.21.11 Mineflayer bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mineflayer": "^4.32.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
